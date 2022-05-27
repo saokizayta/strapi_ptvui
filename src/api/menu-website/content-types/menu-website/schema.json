@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_websites",
+  "info": {
+    "singularName": "menu-website",
+    "pluralName": "menu-websites",
+    "displayName": "menu_website"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "sortname": {
+      "type": "text"
+    },
+    "img": {
+      "type": "text"
+    },
+    "msg": {
+      "type": "text"
+    },
+    "link": {
+      "type": "text"
+    }
+  }
+}
