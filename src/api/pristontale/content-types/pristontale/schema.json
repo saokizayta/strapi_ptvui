@@ -33,6 +33,24 @@
     "Slug": {
       "type": "uid",
       "targetField": "tieude"
+    },
+    "viewer": {
+      "type": "integer"
+    },
+    "img_post": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "img_content": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
