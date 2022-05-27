@@ -4,7 +4,8 @@
   "info": {
     "singularName": "pristontale",
     "pluralName": "pristontales",
-    "displayName": "pristontale"
+    "displayName": "pristontale",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,6 +29,10 @@
     },
     "noidung": {
       "type": "richtext"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "tieude"
     }
   }
 }

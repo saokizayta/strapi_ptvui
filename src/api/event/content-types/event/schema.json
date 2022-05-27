@@ -33,6 +33,13 @@
     "Slug": {
       "type": "uid",
       "targetField": "name_ev"
+    },
+    "img_media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
