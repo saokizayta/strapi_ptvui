@@ -29,6 +29,10 @@
     },
     "img_ev": {
       "type": "text"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "name_ev"
     }
   }
 }
